@@ -1,0 +1,573 @@
+/* =========================
+   WHOLE PAGE
+   ========================= */
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0d1117;
+
+    color: #e6edf3;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================
+   MAIN
+   ========================= */
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+
+    background-color: #0d1117;
+
+    padding: 30px;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+nav {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 15px;
+
+    margin-bottom: 35px;
+
+    border-bottom: 1px solid #30363d;
+}
+
+.logo {
+    color: #58a6ff;
+
+    font-family: monospace;
+
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+
+    margin: 0;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+nav li {
+    margin-left: 25px;
+}
+
+nav a {
+    color: #8b949e;
+
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #58a6ff;
+}
+
+
+/* =========================
+   PROFILE
+   ========================= */
+
+.profile {
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    padding: 35px 20px;
+
+    text-align: center;
+}
+
+.terminal-text {
+    color: #58a6ff;
+
+    font-family: monospace;
+
+    margin-bottom: 15px;
+}
+
+.profile h1 {
+    font-family:
+        'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+
+    font-size: 45px;
+
+    color: #e6edf3;
+
+    margin: 15px 0;
+}
+
+.profile h2 {
+    color: #58a6ff;
+
+    font-size: 25px;
+
+    margin-bottom: 10px;
+}
+
+.profile p {
+    color: #8b949e;
+}
+
+.description {
+    max-width: 600px;
+
+    margin: 20px auto;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   BUTTON
+   ========================= */
+
+.button {
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    margin-top: 10px;
+
+    border: 1px solid #58a6ff;
+
+    border-radius: 6px;
+
+    background-color: transparent;
+
+    color: #58a6ff;
+
+    text-decoration: none;
+
+    font-family: monospace;
+}
+
+.button:hover {
+    background-color: #58a6ff;
+
+    color: #0d1117;
+}
+
+
+/* =========================
+   SECTIONS
+   ========================= */
+
+section {
+    max-width: 1000px;
+
+    margin: 25px auto;
+
+    padding: 25px 20px;
+
+    box-sizing: border-box;
+}
+
+section > h2 {
+    color: #58a6ff;
+
+    font-family: monospace;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   GENERAL BOX
+   ========================= */
+
+.box {
+    background-color: #161b22;
+
+    padding: 25px;
+
+    margin: 15px 0;
+
+    border: 1px solid #30363d;
+
+    border-left: 3px solid #58a6ff;
+
+    border-radius: 6px;
+
+    box-sizing: border-box;
+}
+
+.box:hover {
+    border-color: #58a6ff;
+}
+
+.box h3 {
+    color: #e6edf3;
+
+    margin-bottom: 12px;
+}
+
+.box p {
+    color: #8b949e;
+
+    line-height: 1.6;
+
+    margin-bottom: 8px;
+}
+
+
+/* =========================
+   SKILLS
+   ========================= */
+
+.skill-box {
+    height: 100%;
+
+    background-color: #161b22;
+
+    padding: 20px;
+
+    margin: 8px 0;
+
+    border: 1px solid #30363d;
+
+    border-radius: 6px;
+
+    box-sizing: border-box;
+}
+
+.skill-box:hover {
+    border-color: #58a6ff;
+}
+
+.skill-box h3 {
+    color: #58a6ff;
+
+    font-family: monospace;
+
+    margin-bottom: 10px;
+}
+
+.skill-box p {
+    color: #8b949e;
+
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   EXPERIENCE
+   ========================= */
+
+.experience-box {
+    margin-bottom: 15px;
+}
+
+.experience-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.experience-header h3 {
+    margin-bottom: 0;
+}
+
+.experience-header span {
+    color: #58a6ff;
+
+    font-family: monospace;
+
+    white-space: nowrap;
+}
+
+.experience-company {
+    color: #58a6ff !important;
+
+    font-family: monospace;
+
+    margin-top: 8px;
+}
+
+.experience-box ul {
+    color: #8b949e;
+
+    line-height: 1.8;
+
+    margin-top: 10px;
+}
+
+
+/* =========================
+   TECHNOLOGY
+   ========================= */
+
+.technology {
+    color: #58a6ff !important;
+
+    font-family: monospace;
+}
+
+
+/* =========================
+   LINKS
+   ========================= */
+
+a {
+    color: #58a6ff;
+}
+
+
+/* =========================
+   EDUCATION JOURNEY
+   ========================= */
+
+.timeline {
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    padding: 10px 20px;
+
+    box-sizing: border-box;
+}
+
+.timeline-item {
+    margin-bottom: 5px;
+
+    font-family: monospace;
+
+    color: #e6edf3;
+}
+
+.timeline-year {
+    color: #58a6ff;
+
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+.timeline-line {
+    color: #58a6ff;
+
+    font-size: 20px;
+
+    line-height: 20px;
+}
+
+.timeline-arrow {
+    color: #58a6ff;
+
+    margin-bottom: 3px;
+}
+
+.timeline-content {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    background-color: #161b22;
+
+    border: 1px solid #30363d;
+
+    border-left: 3px solid #58a6ff;
+
+    padding: 12px 15px;
+
+    margin: 8px 0 15px 0;
+
+    border-radius: 6px;
+
+    color: #e6edf3;
+
+    box-sizing: border-box;
+}
+
+.timeline-content.current {
+    color: #58a6ff;
+
+    border-color: #58a6ff;
+
+    font-weight: bold;
+}
+
+.timeline-multiple {
+    display: block;
+}
+
+.timeline-multiple div {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin: 6px 0;
+}
+
+.timeline-icon {
+    width: 28px;
+
+    height: 28px;
+
+    object-fit: contain;
+}
+
+
+/* =========================
+   END OF TRANSMISSION
+   ========================= */
+
+.transmission {
+    max-width: 800px;
+
+    margin: 30px auto;
+
+    padding: 20px;
+}
+
+.transmission-box {
+    text-align: center;
+
+    background-color: #161b22;
+
+    border: 1px solid #30363d;
+
+    padding: 30px 20px;
+
+    border-radius: 6px;
+
+    box-sizing: border-box;
+}
+
+.terminal-title {
+    color: #58a6ff !important;
+
+    font-family: monospace;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.transmission-box p {
+    color: #8b949e;
+
+    font-family: monospace;
+
+    margin: 6px 0;
+}
+
+.transmission-box .button {
+    margin-top: 20px;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 30px;
+
+    border-top: 1px solid #30363d;
+
+    color: #8b949e;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .main {
+        padding: 15px;
+    }
+
+    nav {
+        display: block;
+
+        text-align: center;
+
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        justify-content: center;
+
+        margin-top: 15px;
+
+        flex-wrap: wrap;
+    }
+
+    nav li {
+        margin: 5px 10px;
+    }
+
+    .profile {
+        padding: 25px 10px;
+    }
+
+    .profile h1 {
+        font-size: 35px;
+    }
+
+    section {
+        padding: 20px 10px;
+
+        margin: 20px auto;
+    }
+
+    .timeline {
+        padding: 5px;
+    }
+
+    .experience-header {
+        display: block;
+    }
+
+    .experience-header span {
+        display: block;
+
+        margin-top: 5px;
+    }
+
+}
